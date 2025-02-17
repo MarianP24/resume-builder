@@ -2,7 +2,6 @@ import React from 'react';
 import profileImage from '../images/poza.PNG';
 
 
-
 const CV = () => {
 
     return (
@@ -66,36 +65,41 @@ const CV = () => {
                     }
 
                     .contact-icons {
-                        list-style-type: none; /* Remove bullets */
-                        padding-left: 0; /* Remove left padding */
-                        margin-left: -20px; /* Adjust margin to move items to the left */
+                        margin-left: -20px;
                     }
                 `}
             </style>
-            <div className=" max-w-3xl mx-auto bg-[#FFFAF0] rounded-lg shadow-lg print:max-w-none print:w-full" style={{ margin: '0 auto', padding: '1rem 2rem' }}>
+            <div className=" max-w-3xl mx-auto bg-[#FFFAF0] rounded-lg shadow-lg print:max-w-none print:w-full"
+                 style={{margin: '0 auto', padding: '1rem 2rem'}}>
                 {/* Header Section */}
                 <div className="header-section">
-                    <div style={{ display: 'flex', alignItems: 'flex-start', width: '100%' }}>
+                    <div style={{display: 'flex', alignItems: 'flex-start', width: '100%'}}>
                         <div>
                             <h1 className="text-2xl font-semibold text-gray-800">Paraianu Marian</h1>
                             <p className="text-sm text-gray-600">Junior Java developer</p>
                         </div>
                     </div>
                     {/* Profile Image */}
-                    <div className="image-container" style={{ width: '160px', height: '160px', marginTop: '70px', marginRight: '70px' }}>
+                    <div className="image-container"
+                         style={{width: '160px', height: '160px', marginTop: '70px', marginRight: '70px'}}>
                         <img
                             src={profileImage}
                             alt="Profile"
                             className="rounded-full"
-                            style={{ width: '100%', height: '100%', borderRadius: '50%', boxShadow: '0 15px 16px rgba(0, 0, 0, 0.8)' }}
+                            style={{
+                                width: '100%',
+                                height: '100%',
+                                borderRadius: '50%',
+                                boxShadow: '0 15px 16px rgba(0, 0, 0, 0.8)'
+                            }}
                         />
                     </div>
                 </div>
 
                 {/* Main Content Container */}
-                <div style={{ display: 'flex', flexDirection: 'row', width: '100%', paddingTop:'30px' }}>
+                <div style={{display: 'flex', flexDirection: 'row', width: '100%', paddingTop: '30px'}}>
                     {/* Left Column */}
-                    <div style={{ width: '45%', padding: '1.5rem', position: 'relative' }}>
+                    <div style={{width: '47%', padding: '1.5rem', position: 'relative'}}>
                         <div style={{
                             position: 'absolute',
                             right: 0,
@@ -109,61 +113,85 @@ const CV = () => {
                         <div className="mb-8">
                             <ul className="contact-icons">
                                 <li className="flex items-center text-sm">
-                                    <span className="mr-2" style={{ width: '20px', display: 'inline-block' }}>📞</span> Phone: 0763 793 054
+                                    <span className="mr-2"
+                                          style={{width: '20px', display: 'inline-block'}}>📞</span> Phone: 0763 793 054
                                 </li>
                                 <li className="flex items-center text-sm">
-                                    <span className="mr-2" style={{ width: '20px', display: 'inline-block' }}>✉️</span> Email: p.marian24@yahoo.com
+                                    <span className="mr-2"
+                                          style={{width: '20px', display: 'inline-block'}}>✉️</span> Email:
+                                    p.marian24@yahoo.com
                                 </li>
                                 <li className="flex items-center text-sm">
-                                    <span className="mr-2" style={{ width: '20px', display: 'inline-block' }}>🔗</span> LinkedIn: <a className="ml-1" href="https://linkedin.com/in/marian-paraianu" target="_blank" rel="noopener noreferrer">marian-paraianu</a>
+                                    <span className="mr-2"
+                                          style={{width: '20px', display: 'inline-block'}}>🔗</span> LinkedIn: <a
+                                    className="ml-1" href="https://linkedin.com/in/marian-paraianu" target="_blank"
+                                    rel="noopener noreferrer">marian-paraianu</a>
                                 </li>
                                 <li className="flex items-center text-sm">
-                                    <span className="mr-2" style={{ width: '20px', display: 'inline-block' }}>📍</span> Portfolio: <a className="ml-1" href="https://github.com/MarianP24" target="_blank" rel="noopener noreferrer">github.com/MarianP24</a>
+                                    <span className="mr-2"
+                                          style={{width: '20px', display: 'inline-block'}}>📍</span> Portfolio: <a
+                                    className="ml-1" href="https://github.com/MarianP24" target="_blank"
+                                    rel="noopener noreferrer">github.com/MarianP24</a>
                                 </li>
                             </ul>
                         </div>
 
                         {/* Skills Section */}
                         <div className="mb-8">
-                            <h2 className="text-lg font-semibold mb-3" style={{ marginLeft: '-20px'}}>SKILLS</h2>
+                            <h2 className="text-lg font-semibold mb-3" style={{marginLeft: '-20px'}}>SKILLS</h2>
                             <ul className="space-y-1 list-disc">
-                                <li className="text-sm">Technical Skill</li>
-                                <li className="text-sm">Technical Skill</li>
-                                <li className="text-sm">Technical Skill</li>
-                                <li className="text-sm">Technical Skill</li>
+                                <li className="text-sm">Java</li>
+                                <li className="text-sm">Spring Framework (Spring Boot, Spring MVC)</li>
+                                <li className="text-sm">Hibernate</li>
+                                <li className="text-sm">PostgreSQL</li>
+                                <li className="text-sm">Source code management with GitHub</li>
+                                <li className="text-sm">Experience with IntelliJ IDEA</li>
+                                <li className="text-sm">React</li>
+                                <li className="text-sm">Tailwind</li>
                             </ul>
                         </div>
 
                         {/* Experience Section */}
                         <div className="mb-8">
-                            <h2 className="text-lg font-semibold mb-3" style={{ marginLeft: '-20px' }}>EXPERIENCE</h2>
+                            <h2 className="text-lg font-semibold mb-3" style={{marginLeft: '-20px'}}>EXPERIENCE</h2>
                             <div className="space-y-4">
                                 <div>
-                                    <p className="text-sm font-medium">Role | period</p>
-                                    <p className="text-sm">Your Great Company</p>
+                                    <p className="text-sm font-medium">Test engineer | 20.03.2023 - present</p>
+                                    <p className="text-sm">Hella Romania SRL</p>
                                 </div>
                                 <div>
-                                    <p className="text-sm font-medium">Role | period</p>
-                                    <p className="text-sm">Your Great Company</p>
+                                    <p className="text-sm font-medium">Test engineer | 06.06.2017 - 17.03.2023</p>
+                                    <p className="text-sm">Flextronics Romania SRL</p>
                                 </div>
                             </div>
                         </div>
 
                         {/* Education Section */}
                         <div>
-                            <h2 className="text-lg font-semibold mb-3" style={{ marginLeft: '-20px' }}>EDUCATION</h2>
-                            <p className="text-sm">Degree | School</p>
+                            <h2 className="text-lg font-semibold mb-3" style={{marginLeft: '-20px'}}>EDUCATION</h2>
+                            <div className="space-y-4">
+                                <div>
+                                    <p className="text-sm">Computers and Information Technology</p>
+                                    <p className="text-sm">Ioan Slavici University</p>
+                                </div>
+                                <div>
+                                    <p className="text-sm">Intensive mathematics-informatics</p>
+                                    <p className="text-sm">“Tudor Vladimirescu” National College</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
 
                     {/* Right Column */}
-                    <div style={{ width: '55%', padding: '1.5rem' }}>
+                    <div style={{width: '53%', padding: '1.5rem'}}>
                         {/* Profile Section */}
                         <div className="mb-8">
                             <h2 className="text-lg font-semibold mb-3">PROFILE</h2>
-                            <p className="text-sm">
-                                A brief statement at the beginning of your CV that highlights your key skills, experience, and achievements. It serves as a work introduction to help you get an interview, and what professional profile is.
-                            </p>
+                            <div className="text-sm text-justify">
+                                I am a passionate Junior Java Developer with a focus on backend development.
+                                Interested in building scalable applications and always eager to learn and adapt to new
+                                technologies.
+                            </div>
                         </div>
 
                         {/* Professional Development */}
