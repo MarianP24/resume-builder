@@ -97,7 +97,7 @@ const CV = () => {
                 </div>
 
                 {/* Main Content Container */}
-                <div style={{display: 'flex', flexDirection: 'row', width: '100%', paddingTop: '30px'}}>
+                <div style={{display: 'flex', flexDirection: 'row', width: '100%', paddingTop: '15px', paddingBottom: '0px'}}>
                     {/* Left Column */}
                     <div style={{width: '47%', padding: '1.5rem', position: 'relative'}}>
                         <div style={{
@@ -197,31 +197,43 @@ const CV = () => {
                         {/* Professional Development */}
                         <div className="mb-8">
                             <h2 className="text-lg font-semibold mb-3">PROFESSIONAL DEVELOPMENT</h2>
-                            <ul className="list-disc pl-4 text-sm space-y-2">
-                                <li>Course name</li>
-                                <li>Date</li>
-                                <li>Describe what the course has covered</li>
-                                <li>Highlight the new skills you developed</li>
-                            </ul>
+                            <div className="text-sm">
+                                <p><span className="font-semibold">Java Programming Course</span></p>
+                                <ul className="list-none pl-0 space-y-1">
+                                    <li><span className="font-semibold">Organizer:</span> IT School SRL</li>
+                                    <li><span className="font-semibold">Completion Date:</span> October 8, 2024</li>
+                                    <li><span className="font-semibold">Duration:</span> 180 hours</li>
+                                    <li><span className="font-semibold">Key Topics:</span> Spring Boot, Hibernate, PostgreSQL, REST APIs</li>
+                                </ul>
+                            </div>
                         </div>
 
                         {/* Projects Section */}
-                        <div className="mb-8">
+                        <div className="mb-6">
                             <h2 className="text-lg font-semibold mb-3">PROJECTS</h2>
-                            <ul className="list-disc pl-4 text-sm space-y-2">
-                                <li>Describe your responsibilities and contributions</li>
-                                <li>Include techniques you worked with</li>
-                                <li>Start every bullet with an action verb</li>
-                                <li>Count time range/hours worked with a certain technology</li>
-                            </ul>
+
+                            <div className="text-sm">
+                                <p><span className="font-semibold">Test Operations API</span></p>
+                                <p className="mt-1 text-justify">
+                                    Developed a scalable API using <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>Hibernate</strong> to manage and streamline test operations in a manufacturing environment.
+                                </p>
+
+                                <ul className="list-disc pl-5 mt-2  text-justify">
+                                    <li><strong>Designed</strong> a PostgreSQL database to efficiently store and retrieve test data.</li>
+                                    <li><strong>Built</strong> a REST API using Spring Boot to enable seamless communication between systems.</li>
+                                    <li><strong>Developed</strong> an HTML5-based web interface with Thymeleaf for user interaction.</li>
+                                    <li><strong>Implemented</strong> a real-time shop floor map using Bootstrap to track equipment status.</li>
+                                    <li><strong>Created</strong> automated scheduling features to store and reset files at predefined intervals.</li>
+                                </ul>
+                            </div>
                         </div>
 
-                        {/* Other Sections */}
-                        <div>
-                            <h2 className="text-lg font-semibold mb-3">OTHER SECTIONS</h2>
-                            <ul className="list-disc pl-4 text-sm">
-                                <li>This is your chance to add some personality to the CV</li>
-                            </ul>
+                        {/* SOFT SKILLS */}
+                        <div className="mb-0">
+                            <h2 className="text-lg font-semibold">SOFT SKILLS</h2>
+                            <p className="text-sm text-justify">
+                                Critical Thinking, Adaptability, Creativity, Leadership
+                            </p>
                         </div>
                     </div>
                 </div>
