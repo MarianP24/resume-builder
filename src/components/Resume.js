@@ -114,7 +114,7 @@ const CV = () => {
                             <ul className="contact-icons">
                                 <li className="flex items-center text-sm">
                                     <span className="mr-2"
-                                          style={{width: '20px', display: 'inline-block'}}>📞</span> Phone: 0763 793 054
+                                          style={{width: '20px', display: 'inline-block'}}>📞</span> Phone: +40 763 793 054
                                 </li>
                                 <li className="flex items-center text-sm">
                                     <span className="mr-2"
