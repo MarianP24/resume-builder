@@ -171,12 +171,14 @@ const CV = () => {
                             <h2 className="text-lg font-semibold mb-3" style={{marginLeft: '-20px'}}>EDUCATION</h2>
                             <div className="space-y-4">
                                 <div>
-                                    <p className="text-sm">Computers and Information Technology</p>
                                     <p className="text-sm">Ioan Slavici University</p>
+                                    <p className="text-sm">Bachelor in Computer Science</p>
+                                    <p className="text-sm">Oct 2018 - Jul 2022</p>
                                 </div>
                                 <div>
-                                    <p className="text-sm">Intensive mathematics-informatics</p>
                                     <p className="text-sm">“Tudor Vladimirescu” National College</p>
+                                    <p className="text-sm">Intensive mathematics-informatics</p>
+                                    <p className="text-sm">Oct 2009 - Jul 2013</p>
                                 </div>
                             </div>
                         </div>
