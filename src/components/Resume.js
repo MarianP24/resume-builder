@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImage from '../images/poza.PNG';
+import profileImage from '../images/poza.jpeg';
 
 
 const CV = () => {
@@ -97,7 +97,13 @@ const CV = () => {
                 </div>
 
                 {/* Main Content Container */}
-                <div style={{display: 'flex', flexDirection: 'row', width: '100%', paddingTop: '15px', paddingBottom: '0px'}}>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    width: '100%',
+                    paddingTop: '15px',
+                    paddingBottom: '0px'
+                }}>
                     {/* Left Column */}
                     <div style={{width: '47%', padding: '1.5rem', position: 'relative'}}>
                         <div style={{
@@ -114,7 +120,8 @@ const CV = () => {
                             <ul className="contact-icons">
                                 <li className="flex items-center text-sm">
                                     <span className="mr-2"
-                                          style={{width: '20px', display: 'inline-block'}}>📞</span> Phone: +40 763 793 054
+                                          style={{width: '20px', display: 'inline-block'}}>📞</span> Phone: +40 763 793
+                                    054
                                 </li>
                                 <li className="flex items-center text-sm">
                                     <span className="mr-2"
@@ -205,7 +212,9 @@ const CV = () => {
                                     <li><span className="font-semibold">Organizer:</span> IT School SRL</li>
                                     <li><span className="font-semibold">Completion Date:</span> October 8, 2024</li>
                                     <li><span className="font-semibold">Duration:</span> 180 hours</li>
-                                    <li><span className="font-semibold">Key Topics:</span> Spring Boot, Hibernate, PostgreSQL, REST APIs</li>
+                                    <li><span className="font-semibold">Key Topics:</span> Spring Boot, Hibernate,
+                                        PostgreSQL, REST APIs
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -217,15 +226,27 @@ const CV = () => {
                             <div className="text-sm">
                                 <p><span className="font-semibold">Test Operations API</span></p>
                                 <p className="mt-1 text-justify">
-                                    Developed a scalable API using <strong>Java</strong>, <strong>Spring Boot</strong>, and <strong>Hibernate</strong> to manage and streamline test operations in a manufacturing environment.
+                                    Developed a scalable API using <strong>Java</strong>, <strong>Spring Boot</strong>,
+                                    and <strong>Hibernate</strong> to manage and streamline test operations in a
+                                    manufacturing environment.
                                 </p>
 
                                 <ul className="list-disc pl-5 mt-2  text-justify">
-                                    <li><strong>Designed</strong> a PostgreSQL database to efficiently store and retrieve test data.</li>
-                                    <li><strong>Built</strong> a REST API using Spring Boot to enable seamless communication between systems.</li>
-                                    <li><strong>Developed</strong> an HTML5-based web interface with Thymeleaf for user interaction.</li>
-                                    <li><strong>Implemented</strong> a real-time shop floor map using Bootstrap to track equipment status.</li>
-                                    <li><strong>Created</strong> automated scheduling features to store and reset files at predefined intervals.</li>
+                                    <li><strong>Designed</strong> a PostgreSQL database to efficiently store and
+                                        retrieve test data.
+                                    </li>
+                                    <li><strong>Built</strong> a REST API using Spring Boot to enable seamless
+                                        communication between systems.
+                                    </li>
+                                    <li><strong>Developed</strong> an HTML5-based web interface with Thymeleaf for user
+                                        interaction.
+                                    </li>
+                                    <li><strong>Implemented</strong> a real-time shop floor map using Bootstrap to track
+                                        equipment status.
+                                    </li>
+                                    <li><strong>Created</strong> automated scheduling features to store and reset files
+                                        at predefined intervals.
+                                    </li>
                                 </ul>
                             </div>
                         </div>
